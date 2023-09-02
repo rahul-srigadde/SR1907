@@ -1,0 +1,23 @@
+{
+  "type": "mssql",
+  "host": "IN1-1025687LT\\SR1907",
+  "username": "sa",
+  "password": "Rahul@96",
+  "database": "Test_db",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/**/entity/**/*.ts"
+  ],
+  "migrations": [
+    "src/migration/**/*.ts"
+  ],
+  "subscribers": [
+    "src/subscriber/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}
